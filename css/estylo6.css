@@ -1,0 +1,82 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #78aedb; 
+  }
+  
+  header {
+    background-color: #e27652;
+    text-align: center;
+    padding: 20px;
+    color: #b6f73e; 
+    font-size: 36px; 
+    font-family: "Arial", sans-serif; 
+    opacity: 0.8; 
+    text-shadow: 5px 5px 1px rgba(12, 12, 12, 0.5); 
+  
+
+
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .videos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .video-section {
+    width: 350px;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .video-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; 
+    height: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .description {
+    padding: 10px;
+    background-color: #e0ea81;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+    
+  }
+  
+  .description p {
+    margin: 0;
+  }
+  
+  footer {
+    background-color: #345a16;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    clear: both; /* Limpiar el flujo flotante */
+  }
+  
+ 
